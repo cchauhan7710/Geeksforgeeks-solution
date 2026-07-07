@@ -20,7 +20,7 @@ class Solution {
                 
                 if(total<sum)
                 {
-                   count  = count + right - left;
+                   count  = count + (right - left);
                    left++;
                 }
              else
