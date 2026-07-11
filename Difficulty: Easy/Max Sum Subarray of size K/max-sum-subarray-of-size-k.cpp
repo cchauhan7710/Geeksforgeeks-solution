@@ -23,8 +23,8 @@ class Solution {
                 break;
             }
             
-            sum = sum - arr[low-1] ;
-            sum = sum + arr[high];
+            sum = sum - arr[low-1]+arr[high];
+            
         }
         return maxSum;
     }
